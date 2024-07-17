@@ -1,6 +1,6 @@
 # WIP (Work-in-Progress)
 
-tool for (manifest generator)[https://github.com/oxygen-dioxide/openutau-manifests] by oxygen dioxide
+tool for [manifest generator](https://github.com/oxygen-dioxide/openutau-manifests) by oxygen dioxide
 ## Windows
 
 |  Resampler |  Author  |  Resample Manifest  |  Additional Notes |
