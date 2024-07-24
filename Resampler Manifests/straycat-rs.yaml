@@ -1,0 +1,118 @@
+expressions:
+ pkcp:
+    name: Post Compressor
+    abbr: pscp
+    type: Numerical
+    min: -1
+    max: 6
+    default_value: 4
+    is_flag: true
+    flag: p
+ amp:
+    name: Amplitude Modulation
+    abbr: amp
+    type: Numerical
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: A
+ cors:
+    name: Coarseness
+    abbr: cors
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: S
+ grwl:
+    name: Growl
+    abbr: grwl
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: gw
+ fryp:
+    name: Fry Activation
+    abbr: fryp
+    type: Numerical
+    min: -1000
+    max: 1000
+    default_value: 0
+    is_flag: true
+    flag: fe
+ cryp:
+    name: Fry Consonant Position
+    abbr: cryp
+    type: Numerical
+    min: -1000
+    max: 1000
+    default_value: 0
+    is_flag: true
+    flag: fo
+ fryl:
+    name: Fry Length
+    abbr: fryl
+    type: Numerical
+    min: 1
+    max: 100
+    default_value: 75
+    is_flag: true
+    flag: fl
+ fryv:
+    name: Fry Volume
+    abbr: fryv
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 10
+    is_flag: true
+    flag: fv
+ frpi:
+    name: Fry Pitch
+    abbr: frpi
+    type: Numerical
+    min: 0
+    max: 71
+    default_value: 71
+    is_flag: true
+    flag: fp
+ brep:
+    name: Devoicing Activation
+    abbr: brep
+    type: Numerical
+    min: -1000
+    max: 1000
+    default_value: 0
+    is_flag: true
+    flag: ve
+ crep:
+    name: Devoicing Consonant Position
+    abbr: crep
+    type: Numerical
+    min: -1000
+    max: 1000
+    default_value: 0
+    is_flag: true
+    flag: vo
+ brel:
+    name: Devoicing Length
+    abbr: brel
+    type: Numerical
+    min: 1
+    max: 1000
+    default_value: 5
+    is_flag: true
+    flag: vl
+ rege:
+    name: Model Regeneration
+    abbr: rege
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 10
+    is_flag: true
+    flag: G
